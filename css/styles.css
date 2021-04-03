@@ -1,0 +1,86 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: Century Gothic; 
+}
+
+body{
+      background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://i.pinimg.com/474x/0a/49/24/0a49246c6b626078e28c6234c2316c73.jpg);
+      height: 100vh;
+      background-size: cover; 
+      background-position: center;
+}
+
+ul{
+      list-style-type: none;
+      float: right;
+      margin-top: 25px;
+}
+
+ul li{
+      display: inline-block;
+}
+
+ul li a{
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 20px;
+      border: 1px solid #fff;
+      transition: 0.6s ease;
+}
+
+ul li a:hover{
+      background-color: #fff;
+      color: #000;
+}
+
+ul li.active a{
+      background-color: #fff;
+      color: #000;
+}
+
+.logo img{
+      float: left;
+      width: 120px;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0px 0px 0px 3px green;
+}
+
+.main{
+      max-width: 1200px;
+      margin: auto;
+}
+
+.title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+
+.title h1{
+      color: rgb(243, 243, 247);
+      font-size: 70px;
+}
+
+.button{
+      position: absolute;
+      top: 62%;
+      left: 50%;
+      transform: translate(-50%,-50%);  
+}
+
+.btn{
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 20px;
+      border: 1px solid #fff;
+      transition: 0.6s ease;
+}
+
+.btn:hover{
+      background-color: #fff;
+      color: #000;
+      transition: 0.6s ease;
+}
